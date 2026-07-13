@@ -1,0 +1,35 @@
+{
+  "n_observations": 9011,
+  "date_range": [
+    "1987-05-20",
+    "2022-11-14"
+  ],
+  "price_min": 9.1,
+  "price_max": 143.95,
+  "price_mean": 48.42078237709467,
+  "price_std": 32.86010995167221,
+  "price_level": {
+    "adf": {
+      "adf_statistic": -1.9938560113924675,
+      "adf_p_value": 0.28927350489340287,
+      "adf_stationary_at_5pct": false,
+      "kpss_statistic": 9.558800416712563,
+      "kpss_p_value": 0.01,
+      "kpss_stationary_at_5pct": false
+    }
+  },
+  "log_returns": {
+    "adf": {
+      "adf_statistic": -16.427113494485894,
+      "adf_p_value": 2.4985801611428892e-29,
+      "adf_stationary_at_5pct": true,
+      "kpss_statistic": 0.034274035907567606,
+      "kpss_p_value": 0.1,
+      "kpss_stationary_at_5pct": true
+    },
+    "mean": 0.0001791509828585647,
+    "std": 0.02553219808262982,
+    "skew": -1.744406286069927,
+    "kurtosis": 65.90472347706871
+  }
+}

@@ -1,0 +1,18 @@
+Date,Event,Category,Description,Expected_Direction
+1990-08-02,Iraq invades Kuwait,Geopolitical Conflict,"Iraqi forces invade Kuwait, triggering the Gulf War and fears of a major supply disruption from the Persian Gulf.",Increase
+1991-01-17,Operation Desert Storm begins,Geopolitical Conflict,"US-led coalition launches the air campaign to expel Iraq from Kuwait; market uncertainty resolves and supply fears ease.",Decrease
+1997-07-02,Asian Financial Crisis begins,Economic Shock,"Thai baht devaluation triggers a regional financial crisis across East Asia, sharply reducing oil demand forecasts.",Decrease
+1998-12-01,OPEC output glut / price trough,OPEC Policy,"OPEC fails to agree effective production cuts amid the Asian crisis; Brent falls to roughly $10/barrel, a two-decade low.",Decrease
+1999-03-23,OPEC 1999 production cut agreement,OPEC Policy,"OPEC and non-OPEC producers (incl. Mexico, Norway) agree coordinated output cuts, beginning a sustained price recovery.",Increase
+2001-09-11,September 11 terrorist attacks,Geopolitical Shock,"Attacks on the US trigger a global demand and confidence shock, briefly depressing oil prices amid recession fears.",Decrease
+2003-03-20,US-led invasion of Iraq,Geopolitical Conflict,"The Iraq War begins, raising fears of prolonged supply disruption from a major OPEC producer.",Increase
+2008-07-11,Brent hits pre-crisis record high (~$147/bbl),Economic/Market,"Brent crude peaks amid strong global demand, dollar weakness, and speculative activity, just before the financial crisis hits.",Increase
+2008-09-15,Global Financial Crisis (Lehman Brothers collapse),Economic Shock,"Lehman Brothers' bankruptcy triggers a global financial crisis and demand collapse; oil prices crash from record highs.",Decrease
+2011-02-15,Arab Spring / Libyan Civil War,Geopolitical Conflict,"Popular uprisings across the Middle East/North Africa, including civil war in Libya, disrupt regional oil production and exports.",Increase
+2014-11-27,OPEC declines to cut output amid US shale boom,OPEC Policy,"OPEC (led by Saudi Arabia) maintains production despite oversupply from US shale, triggering a multi-month price collapse.",Decrease
+2016-01-16,Iran sanctions lifted (JCPOA implementation day),Sanctions,"Nuclear-deal sanctions on Iran are lifted, allowing Iranian crude back onto world markets and adding to oversupply.",Decrease
+2016-11-30,First OPEC+ production cut agreement,OPEC Policy,"OPEC and non-OPEC producers (notably Russia) agree the first coordinated ""OPEC+"" output cut, supporting a price rally.",Increase
+2018-05-08,US withdraws from Iran nuclear deal,Sanctions,"The US exits the JCPOA and re-imposes sanctions on Iranian oil exports, tightening expected global supply.",Increase
+2020-03-08,Saudi-Russia oil price war,OPEC Policy,"OPEC+ talks collapse; Saudi Arabia launches a price war and ramps output just as COVID-19 demand collapses.",Decrease
+2020-04-12,Historic OPEC+ production cut (9.7 mbpd),OPEC Policy,"OPEC+ agrees a record output cut to counter the COVID-19 demand collapse and negative-price panic in oil markets.",Increase
+2022-02-24,Russia invades Ukraine,Geopolitical Conflict,"Russia's full-scale invasion of Ukraine raises fears of disruption to Russian energy exports, sending Brent above $100/barrel.",Increase
