@@ -1,0 +1,367 @@
+.app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px 24px 48px;
+}
+
+.app-header {
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  font-size: 24px;
+  margin: 0 0 4px;
+  letter-spacing: -0.3px;
+}
+
+.app-header p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.date-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  align-items: center;
+}
+
+.date-filter-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.preset-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.preset-row:hover {
+  background: var(--gridline);
+}
+
+.preset-row.is-active {
+  color: var(--text-primary);
+  font-weight: 600;
+  background: var(--gridline);
+}
+
+.preset-check {
+  width: 14px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.date-filter-custom {
+  display: flex;
+  gap: 12px;
+  border-left: 1px solid var(--border);
+  padding-left: 16px;
+}
+
+.date-filter-custom label {
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  color: var(--text-muted);
+  gap: 2px;
+}
+
+.date-filter-custom input {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 13px;
+  background: var(--surface-1);
+  color: var(--text-primary);
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.stat-tile {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 6px;
+}
+
+.stat-value {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.stat-sub {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.is-positive {
+  color: var(--good);
+}
+
+.is-negative {
+  color: var(--series-6);
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.legend-item:hover {
+  background: var(--gridline);
+}
+
+.legend-item.is-active {
+  background: var(--gridline);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.legend-swatch-line {
+  width: 12px;
+  height: 2px;
+  border-radius: 0;
+  background: var(--price-line);
+}
+
+.chart-card {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 8px 8px;
+  margin-bottom: 20px;
+}
+
+.chart-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px 8px;
+}
+
+.chart-card-header h2 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.chart-tooltip {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  max-width: 240px;
+}
+
+.chart-tooltip-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: var(--text-primary);
+}
+
+.chart-tooltip-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+}
+
+.tooltip-key {
+  width: 10px;
+  height: 2px;
+  display: inline-block;
+  border-radius: 1px;
+}
+.tooltip-key[style*="border-radius: 50%"] {
+  border-radius: 50%;
+}
+
+.tooltip-label {
+  flex: 1;
+}
+
+.tooltip-value {
+  color: var(--text-primary);
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 20px;
+}
+
+.sidebar h2 {
+  font-size: 14px;
+  margin: 0 0 8px;
+}
+
+.event-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 640px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-1);
+}
+
+.event-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.event-item:last-child {
+  border-bottom: none;
+}
+
+.event-item:hover {
+  background: var(--page-plane);
+}
+
+.event-item.is-selected {
+  background: var(--gridline);
+}
+
+.event-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.event-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.event-date {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.event-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.event-desc {
+  font-size: 11px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.muted {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.app-footer {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+@media (max-width: 900px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+  .stat-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .event-list {
+    max-height: 320px;
+  }
+}
+
+@media (max-width: 560px) {
+  .stat-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .date-filter-custom {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid var(--border);
+    padding-top: 8px;
+    width: 100%;
+  }
+}
