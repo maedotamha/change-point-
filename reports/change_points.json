@@ -1,0 +1,153 @@
+{
+  "core_model": {
+    "tau_index": 4520,
+    "date": "2005-02-23",
+    "mu1": 21.418852069613873,
+    "mu2": 75.61108839822913,
+    "pct_change": 253.01186147830842,
+    "r_hat_max": 1.0,
+    "ess_bulk_min": 1847.0
+  },
+  "change_points": [
+    {
+      "date": "1990-07-30",
+      "mu_before": 17.17,
+      "mu_after": 21.29,
+      "pct_change": 24.0,
+      "effect_size": 1.1,
+      "tau_confidence": 0.99,
+      "r_hat_max": 1.0,
+      "n_before": 816,
+      "n_after": 728,
+      "associated_event": {
+        "event": "Iraq invades Kuwait",
+        "event_date": "1990-08-02",
+        "category": "Geopolitical Conflict",
+        "days_diff": -3
+      }
+    },
+    {
+      "date": "1993-06-07",
+      "mu_before": 19.12,
+      "mu_after": 16.95,
+      "pct_change": -11.3,
+      "effect_size": 0.6,
+      "tau_confidence": 0.57,
+      "r_hat_max": 1.01,
+      "n_before": 1545,
+      "n_after": 818,
+      "associated_event": null
+    },
+    {
+      "date": "1995-03-21",
+      "mu_before": 16.03,
+      "mu_after": 18.08,
+      "pct_change": 12.8,
+      "effect_size": 1.44,
+      "tau_confidence": 0.95,
+      "r_hat_max": 1.02,
+      "n_before": 455,
+      "n_after": 364,
+      "associated_event": null
+    },
+    {
+      "date": "1996-08-29",
+      "mu_before": 18.37,
+      "mu_after": 24.74,
+      "pct_change": 34.7,
+      "effect_size": 1.0,
+      "tau_confidence": 0.81,
+      "r_hat_max": 1.0,
+      "n_before": 2364,
+      "n_after": 2155,
+      "associated_event": null
+    },
+    {
+      "date": "2000-04-27",
+      "mu_before": 17.75,
+      "mu_after": 29.62,
+      "pct_change": 66.9,
+      "effect_size": 1.97,
+      "tau_confidence": 0.74,
+      "r_hat_max": 1.57,
+      "n_before": 918,
+      "n_after": 1238,
+      "associated_event": null
+    },
+    {
+      "date": "2002-12-20",
+      "mu_before": 25.99,
+      "mu_after": 34.23,
+      "pct_change": 31.7,
+      "effect_size": 1.54,
+      "tau_confidence": 0.94,
+      "r_hat_max": 1.01,
+      "n_before": 680,
+      "n_after": 559,
+      "associated_event": {
+        "event": "US-led invasion of Iraq",
+        "event_date": "2003-03-20",
+        "category": "Geopolitical Conflict",
+        "days_diff": -90
+      }
+    },
+    {
+      "date": "2005-02-22",
+      "mu_before": 21.42,
+      "mu_after": 75.6,
+      "pct_change": 253.0,
+      "effect_size": 2.91,
+      "tau_confidence": 1.0,
+      "r_hat_max": 1.0,
+      "n_before": 4520,
+      "n_after": 4491,
+      "associated_event": null
+    },
+    {
+      "date": "2010-12-13",
+      "mu_before": 72.13,
+      "mu_after": 108.38,
+      "pct_change": 50.3,
+      "effect_size": 2.25,
+      "tau_confidence": 0.96,
+      "r_hat_max": 1.0,
+      "n_before": 1471,
+      "n_after": 992,
+      "associated_event": {
+        "event": "Arab Spring / Libyan Civil War",
+        "event_date": "2011-02-15",
+        "category": "Geopolitical Conflict",
+        "days_diff": -64
+      }
+    },
+    {
+      "date": "2014-11-26",
+      "mu_before": 86.76,
+      "mu_after": 62.06,
+      "pct_change": -28.5,
+      "effect_size": 1.11,
+      "tau_confidence": 0.96,
+      "r_hat_max": 1.0,
+      "n_before": 2464,
+      "n_after": 2028,
+      "associated_event": {
+        "event": "OPEC declines to cut output amid US shale boom",
+        "event_date": "2014-11-27",
+        "category": "OPEC Policy",
+        "days_diff": -1
+      }
+    },
+    {
+      "date": "2017-10-26",
+      "mu_before": 49.95,
+      "mu_after": 69.21,
+      "pct_change": 38.5,
+      "effect_size": 1.11,
+      "tau_confidence": 0.78,
+      "r_hat_max": 1.05,
+      "n_before": 746,
+      "n_after": 1283,
+      "associated_event": null
+    }
+  ]
+}
